@@ -1,0 +1,155 @@
+/************
+
+cessdatheme
+Styles for Xaringan slides with CESSDA theme
+November 2021
+
+/************
+
+/* Title slide */
+.title-slide {
+  background-image: url(../img/title_background.png);
+  background-size: cover;
+}
+
+.title-slide h1 {
+  color: #FFFFFF;
+  margin-top: 180px;
+  margin-left: 130px;
+  margin-right: 50px;
+  text-align: left;
+  font-size: 35pt; /*36.4px;*/
+  position: fixed;
+}
+
+.title-slide h2 {
+  color: #94C2E9;
+  font-weight: normal;
+  margin-top: 330px;
+  margin-left: 80px;
+  margin-right: -50px;
+  text-align: left;
+  font-size: 32pt;
+  position: fixed;
+}
+
+.title-slide h3 {
+  color: #A4C9E8;
+  font-style: italic;
+  margin-top: 400px;
+  margin-left: 80px;
+  margin-right: -50px;
+  text-align: left;
+  font-size: 16pt;
+  position: fixed;
+}
+
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+/* Header */
+
+.hljs-github {
+  background-image: url(../img/header.png);
+  background-size: contain;
+  background-position: top;
+}
+
+.inverse {
+  background-image: url(../img/title_background.png);
+  background-size: cover;
+}
+
+
+/* Slide number */
+
+.remark-slide-number {
+  font-size: 9pt;
+  margin-bottom: 2px;
+  margin-right: 40px;
+}
+
+/* Highlight color */
+
+.highlight {
+  background: "U+1F517" no-repeat left center;
+  padding-left:19px;
+  color: #A4C9E8;
+  font-style: bold;
+}
+
+a.show:before { 
+   content: "U+1F517" " " attr(href) " ";
+}
+
+/* Headings */
+
+h1, h2, h3 {
+  font-family: 'Tahoma';
+  font-weight: normal;
+  font-size: 58pt;
+  color: #6A6C77;
+  text-shadow: none;
+  position: relative;
+  top: 10px;
+  text-align: left;
+  margin-bottom: 65px
+}
+
+/* Body */
+
+.remark-slide-content {
+  font-family: 'Tahoma', serif;
+  font-size: 18pt;
+  color: #6A6C77;
+  padding: 1em 4em 1em 4em;
+}
+
+/* Code */
+.remark-code {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 11pt;
+  color: #6A6C77;
+}
+
+a, a > code {
+  color: #FF6100;
+  text-decoration: none;
+}
+
+
+
+/* Custom Fonts */
+
+.bold {font-weight: bold}
+.smaller { font-size: 70% }
+.small { font-size: 80% }
+.ssmall { font-size: 90% }
+.large { font-size: 130% }
+.larger { font-size: 150% }
+.huge { font-size: 300% }
+.tinyisher {
+  font-size: 50%;
+  line-height: 1.1;
+  display: block;
+}
+.tinyish {font-size: 30% }
+
+.small .remark-code {
+  font-size: 65%;
+  line-height: 1.1;
+  display: block;
+}
+
+.tinyisher .remark-code {
+  font-size: 50%;
+  line-height: 1.1;
+  display: block;
+}
+
+.mini .remark-code {
+  font-size: 30%;
+  line-height: 1.1;
+  display: block;
+}
