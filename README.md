@@ -1,7 +1,7 @@
 # CESSDA online workshop: "Using the statistical language R as a Geographic Information System" (November 23, 2021)
 
 <p align=center>   
-<a href="https://stefanjuenger.github.io/CESSDA-R-GIS/"><b>CLICK HERE FOR UNCLUTTERED VIEW</b></a> 
+<a href="https://stefanjuenger.github.io/CESSDA-R-GIS/"><b>CLICK HERE FOR AN UNCLUTTERED VIEW</b></a> 
 </p>
 
 <br/>
