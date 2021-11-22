@@ -57,8 +57,7 @@ By the end of this course, you should...
 - At least basic knowledge of `R`, its syntax, and internal logic
   - Affinity for using script-based languages
   - Don't be scared to wrangle data with complex structures
-- Working versions of `R` (and `Rstudio`) on your computer 
-  - Ideally, with the packages installed, I asked you upfront
+- Working versions of `R` (ideally `Rstudio`) on your computer 
 ]
 
 .pull-right[
@@ -412,7 +411,6 @@ We will use plenty of different packages during the course, but only a few are o
 
 
 - [`dplyr`](https://cran.r-project.org/web/packages/dplyr/index.html)
-- [`mapview`](https://cran.r-project.org/web/packages/mapview/index.html)
 - [`sf`](https://cran.r-project.org/web/packages/sf/index.html)
 - [`stars`](https://cran.r-project.org/web/packages/stars/index.html)
 - [`tmap`](https://cran.r-project.org/web/packages/tmap/index.html)

@@ -77,9 +77,9 @@ knitr::include_graphics(normalizePath("./content/img/fig_geometries.png"))
 .pull-left[
 **...Vector Data?**
 - Each real-world feature is represented as one of three types of geometries:
-- Points: discrete location (f.e., city)
-- Lines: linear feature   (f.e., river)
-- Polygons: enclosed area  (f.e., country)
+  - Points: discrete location (f.e., city)
+  - Lines: linear feature   (f.e., river)
+  - Polygons: enclosed area  (f.e., country)
 - Geometries are not fixed
 ]
 
@@ -460,9 +460,7 @@ plot(inhabitants_cologne)
 
 
 ```{r combining-raster-layers}
-immigrant_rate <-
-  immigrants_cologne * 100 / 
-  inhabitants_cologne
+immigrant_rate <- immigrants_cologne * 100 / inhabitants_cologne
 
 names(immigrant_rate) <- "immigrant_rate"
 
