@@ -1,7 +1,7 @@
 ---
 title: "Using the statistical language R as a Geographic Information System"
 subtitle: "Closing"
-author: "Stefan Jünger / GESIS -- Leibniz Institute for the Social Sciences <br style='line-height: 65px' />November 23, 2021"
+author: "Stefan Jünger / GESIS -- Leibniz Institute for the Social Sciences <br style='line-height: 65px' />November 23, 2021 <br style='line-height: 65px' /> <p style='color:#FFFFFF; text-align: left; font-size: 16pt; margin-left: 80px; margin-top: 400px'> DOI: 10.5281/zenodo.5717830 </p>"
 output:
   xaringan::moon_reader:
     self_contained: true
