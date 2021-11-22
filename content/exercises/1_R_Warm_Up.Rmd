@@ -36,7 +36,6 @@ I always recommend using the `easypackages` packages, which can be installed wit
 ```{r first.exercise, solution = TRUE}
 easypackages::packages(
   "dplyr",
-  "mapview",
   "sf",
   "stars",
   "tmap",
