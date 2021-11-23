@@ -89,7 +89,7 @@ knitr::include_graphics(normalizePath("./content/img/fig_geometries.png"))
 **...Raster Data?**
 - Hold information on (most of the time) evenly shaped grid cells
 - Basically, a simple data table
-- each cell represents one observation
+- Each cell represents one observation
 ]
 
 ---
@@ -106,7 +106,7 @@ Geometries' 3 types of information:
 
 .pull-right[
 We need to assign attributes to each geometry:
-- attribute tables (i.e., data tables).
+- attribute tables (i.e., data tables)
 - rows = geometric object (i.e., observation, case, feature)
 - column = attribute (i.e., variable)
 ]
@@ -126,10 +126,10 @@ knitr::include_graphics(normalizePath("./content/img/attr_table.png"))
 
 <br>
 - Information about geometries are globally stored
-- their location in space is defined by their cell location in the data table
-- information about raster cells' resolution are stored as metadata
+- Their location in space is defined by their cell location in the data table
+- Information about raster cells' resolution are stored as metadata
 - Usually, rasters only comprise one attribute
-- one raster layer can comprise several bands though (e.g., rgb-bands)
+- One raster layer can comprise several bands though (e.g., rgb-bands)
 
 ---
 

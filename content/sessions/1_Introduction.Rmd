@@ -113,12 +113,15 @@ knitr::include_graphics(normalizePath("./content/img/so-tell-me-5be02d.jpg"))
 
 ## Preliminaries
 <br>
-<br>
 - The workshop consists of a combination of a few lectures and hands-on exercises
 - Feel free to ask questions at any time
 - Slides and other materials are available at:
 
 .center[`https://github.com/StefanJuenger/CESSDA-R-GIS`]
+
+.center[**The workshop will also be recorded. All slides, other materials and the recording will be shared on CESSDA channels.**]
+
+
 
 ---
 
@@ -159,7 +162,7 @@ background-size: cover
 knitr::include_graphics(normalizePath("./content/img/cessda_daeg.png"))
 ```
 
-.center[`https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide`]
+.center[`https://www.cessda.eu/DMEG`]
 
 ---
 
